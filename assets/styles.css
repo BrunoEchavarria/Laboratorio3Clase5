@@ -1,0 +1,60 @@
+
+.logo img{
+    width: 200px;
+    height: 100px;
+    padding-right: 10px;
+}
+.banner{
+    width: 1200px;
+    height: 100px;
+    background-color: black;
+    /* background-image: url('/img/paisaje.jpeg');
+    background-size: cover;
+    background-position: center; */
+}
+.banner img{
+    height: 100px;
+
+}
+.contenedor{
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.nav-bar{
+    background-color: black;
+}
+
+.nav-bar ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    height: 50px;
+
+}
+
+.nav-bar ul li a {
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+}
+.aside{
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 600px;
+    height: 400px;
+    background-color: black;
+    float: right;
+}
+.image{
+    margin-top: 20px;
+    width: 600px;
+    height: 350px;
+    background-color: black;
+}
+.texto{
+    text-align: center;
+    margin-left: 20px;
+}
